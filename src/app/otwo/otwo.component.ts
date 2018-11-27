@@ -4,8 +4,10 @@ import { Component } from '@angular/core';
     selector: 'app-otwo',
     templateUrl: './otwo.comonent.html',
     styles: [`
-        h1 {
-            color: lightgreen;
+         h1 {
+            padding: 10px;
+            background-color: lightgreen;
+            border: 1px solid blue;
         }
     `]
 })
