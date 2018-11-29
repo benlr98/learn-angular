@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { disableDebugTools } from '@angular/platform-browser';
+import { TargetLocator } from 'selenium-webdriver';
 
 @Component({
     selector: 'app-otwo',
@@ -6,5 +8,12 @@ import { Component } from '@angular/core';
 })
 
 export class OtwoComponent {
+    username = '';
+    userNameEmpty = true;
+
+    constructor() {
+
+    }
+
 
 }

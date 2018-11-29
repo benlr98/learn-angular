@@ -1,1 +1,11 @@
-<h1> Component number 2! </h1>
+<input type="text"
+       placeholder="Type username here!"
+       class="form-control"
+       [(ngModel)]="username">
+<p> Username: {{username}} </p>
+<button class="btn btn-warning"
+        [disabled]="username === '' "
+        (click)="username = '' "
+        >
+    Click!
+</button>
