@@ -17,6 +17,11 @@ export class Homework3Component {
         this.showParagraph === true ? 
             this.showParagraph = false : this.showParagraph = true;
         this.buttonClick += 1;
-        this.clicks.push(this.buttonClick);    }
+        this.clicks.push(this.buttonClick); 
+    }
+
+    listColor() {
+        return this.clicks.length >= 5 ? 'blue' : '';
+    }
 
 }
