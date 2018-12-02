@@ -1,0 +1,9 @@
+<h3>Homework 3</h3> 
+<button class="btn btn-secondary"
+        (click)= "toggleParagraph()">
+        Display Details
+</button>
+<p *ngIf="showParagraph">Secret Password: Toast</p>
+<ul>
+    <li *ngFor="let click of clicks"> {{click}} </li>
+</ul>
