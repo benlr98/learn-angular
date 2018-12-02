@@ -6,7 +6,7 @@
 <p *ngIf="showParagraph">Secret Password: Toast</p>
 <ul>
     <li *ngFor="let click of clicks"
-        [ngStyle] = "{ backgroundColor: listColor() }"
-        [id]="buttonClick">
+        [ngStyle] = "{backgroundColor: click >= 5 ? 'blue' : 'transparent' }"
+        [ngClass]= "{'white-text': click >= 5 }">
         {{click}} </li>
 </ul>

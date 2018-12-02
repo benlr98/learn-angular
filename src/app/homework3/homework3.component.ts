@@ -19,8 +19,5 @@ export class Homework3Component {
         this.clicks.push(this.buttonClick); 
     }
 
-    listColor() {
-        return this.clicks.length >= 5 ? 'blue' : '';
-    }
 
 }
