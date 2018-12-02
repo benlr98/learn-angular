@@ -7,6 +7,7 @@ import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { OneComponent } from './one/one.component';
 import { OtwoComponent } from './otwo/otwo.component';
+import { Homework3Component } from './homework3/homework3.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { OtwoComponent } from './otwo/otwo.component';
     ServerComponent,
     ServersComponent,
     OneComponent,
-    OtwoComponent
+    OtwoComponent,
+    Homework3Component
   ],
   imports: [
     BrowserModule,
